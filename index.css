@@ -1,0 +1,93 @@
+/* work sans font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+/* start nav bar */
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+    background: #fdecec;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-font-color{
+
+}
+.div-1{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+}
+.div-1-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    
+}
+.div-2-1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.div-2-2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 0 10px;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 700px;
+}
+.nav-description{
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500px;
+}
+/* end nab bar */
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:425px) {
+    .nav-container, 
+    .div-1, 
+    .div-1-1, 
+    .div-2-1 
+     {
+        flex-direction: column;
+        
+    }
+    .nav-container{
+      padding: 0;
+      margin: 50px 0;
+      background-color: #fff;
+      box-shadow: none;
+    }
+    .div-2-1{
+        margin: 20px 0;
+    }
+    .div-1-1{
+        gap: 10px;
+    }
+    
+}
